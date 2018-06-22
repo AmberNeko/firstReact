@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+a{
+  text-decoration-line: none;
+  color: rgb(86, 97, 255);
+}
+a:visited{
+  color: rgb(185, 78, 218);
+}
+.font_size{
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+.red{
+  font-weight: bold;
+  color: red;
+}
+.main{
+  margin: 4rem;
+}
+.tomato_color{
+  color:tomato;
+  font-weight: bold;
+}
+.blue_color{
+  color: rgb(60, 132, 199);
+  font-weight: bold;
+}
+.react_color{
+  color: #61dafb;
+  font-weight: bold;
+}
+.node_color{
+  color: #026e00;
+  font-weight: bold;
+}
+.link{
+  cursor: pointer;
+}
+.close{
+  height: 0rem;
+  transition: all 2s;
+  overflow: hidden;
+}
+.open{
+  height: 4rem;
+  transition: all 2s;
+  overflow: auto;
+}
+.img_box{
+  justify-content:center;
+  display: flex;
+  align-items: center; 
+  position: relative;
+}
+.zoom_out{
+  width: 40vw;
+  transition: transform 2s;
+  transform: scale(1,1);
+  cursor: zoom-in;
+  position: relative;
+}
+.zoom_in{
+  width: 40vw;  
+  position: relative;
+  cursor: zoom-out;
+  z-index: 1;
+}
+.zoom_in:nth-child(1){
+  transition: transform 2s;
+  transform: scale(1.8,1.8) translateX(10vw);
+}
+.zoom_in:nth-child(2){
+  transition: transform 2s;
+  transform: scale(1.8,1.8) translateX(-10vw);
+}
+.arrow{
+  box-shadow: 10px 10px 10px rgb(204, 204, 218);
+  border-radius: 10px; 
+  font-size: 4rem;
+  text-align: center;
+  line-height: 4rem;
+  background-color: #61dafb;
+  width: 4rem;
+  height: 4rem;
+  position: fixed;
+  bottom: 2vw;
+  right: 2vw;
+  cursor: pointer;
+}
+.none{
+  transition: opacity 1s;
+  opacity: 0;
+}
+.block{
+  transition: opacity 1s;  
+  opacity: 1;
+}
+.hr{
+  display: inline-block;
+  width: 30vw;
+  margin: 1rem;
+}
+.h3{
+  text-align: center;
+  width: 20vw;
+  display: inline-block;
+  transform: translateY(-1rem);
+}
+/* li{
+  cursor: pointer;
+} */

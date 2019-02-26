@@ -83,7 +83,7 @@ function OneFloor(props){
       <Jsx />跟 XML 很像，自己創造Html標籤(Tag)，<br/>
       範例：<br/>
       </p>
-      <Gist id='biop72231/ce32511e8564a071a8cbcca6c393eac2' file='Li.js'/>
+      <Gist id='AmberNeko/ce32511e8564a071a8cbcca6c393eac2' file='Li.js'/>
       <p className='font_size'>但其實這個標籤是需要經過 babel 重新轉譯過後才會把裡面的東西呈現出來的，<br/>
       如果有興趣了解轉譯過後的樣子可以到<a href='https://babeljs.io/'> babel ( 傳送門 )</a>的官網去玩玩看，<br/>
       撰寫的方法是<Red  text={'function'}/>
@@ -103,10 +103,10 @@ function OneFloor(props){
       在 ES6 雖然還是可以用<Red  text={'var'}/>來宣告，<br/>
       但實在是不建議繼續使用<Red  text={'var'}/>來宣告了！<br/>
       原因的話下面有例子可以參考來源 (<a href='https://msdn.microsoft.com/zh-tw/library/bzt2dkta(v=vs.94).aspx'> MSDN 傳送門 </a>)：<br/>
-      <Gist id='biop72231/7c96b155339f58369c5c99d07e1207f5' file='let.js'/><br/>
+      <Gist id='AmberNeko/7c96b155339f58369c5c99d07e1207f5' file='let.js'/><br/>
       <span className='tomato_color'>箭頭函式</span>的話其實只是省略了一些字而已，<br/>
       範例 ：<br/>
-      <Gist id='biop72231/7c96b155339f58369c5c99d07e1207f5' file='arrow_function.js' />
+      <Gist id='AmberNeko/7c96b155339f58369c5c99d07e1207f5' file='arrow_function.js' />
       
       </p>
       <hr className="hr" /><h3 className="h3">( 持續更新中 )</h3><hr className="hr" />
@@ -122,7 +122,7 @@ function TwoFloor(props){
     <a href='https://nodejs.org/en/' className='node_color'> Node.js ( 傳送門 )</a>，<br/>
     不一定要安裝最新版本，因為最新版通常是處於測試狀態，可能會發生意料之外的情況，,<br/>
     安裝過程不會很複雜這邊就不多做解釋，如果真的遇到問題可以上網找找看相關資訊，<br/>
-    或到我的<a href='https://github.com/biop72231'> GitHub ( 傳送門 ) </a>留言。
+    或到我的<a href='https://github.com/AmberNeko'> GitHub ( 傳送門 ) </a>留言。
     下載完後打開終端機 ( Windows 叫做命令提示字元 )輸入 npm --version 檢查，<br/>
     Windows 10 打開的方式這邊介紹幾種 ：
     </p>
